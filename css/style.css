@@ -1,0 +1,49 @@
+body {
+  font-family: "Fira Sans", sans-serif;
+  font-size: 16px;
+  color: #111238;
+  margin: 0;
+}
+/* .row {
+  align-items: center;
+} */
+
+/* .menu-group {
+  display: flex;
+  justify-content: center;
+} */
+.menu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.menu-item:not(:last-child) {
+  margin-right: 20px;
+}
+.menu-link {
+  color: #111238;
+  text-decoration: none;
+}
+/* .auth {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+} */
+.button {
+  text-decoration: none;
+  display: inline-block;
+}
+.button-link {
+  color: #111238;
+  padding: 10px;
+  margin-right: 30px;
+}
+.button-primary {
+  background: #1a75e8;
+  border-radius: 5px;
+  padding-top: 15px;
+  padding-right: 30px;
+  padding-bottom: 15px;
+  padding-left: 30px;
+  color: #ffffff;
+}
