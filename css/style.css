@@ -138,6 +138,10 @@ body {
   background: #1a75e8;
   color: #fff;
 }
+.card-icon {
+  width: 24px;
+  height: 24px;
+}
 .card:hover .card-icon {
   fill: #fff;
 }
